@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #eee;
+  min-height: 100%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-body {
+  flex: 5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.App-card-container {
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.App-controller {
+  flex: 1 1;
+  height: 60vh;
+  margin-top: 1rem;
+  background: white;
+  box-shadow: 0 0 12px -10px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin-left: 1rem;
+}
+
+.App-content {
+  display: flex;
+}
+
