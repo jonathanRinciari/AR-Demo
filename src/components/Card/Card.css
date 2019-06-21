@@ -1,0 +1,105 @@
+.Card-card {
+    width: 250px;
+    height: 368px;
+    padding: 2rem;
+    margin: 1rem;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.Card-card-alt {
+    width: 250px;
+    height: 368px;
+    padding: 2rem;
+    margin: 1rem;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.Card-card {
+    width: 250px;
+    height: 368px;
+    padding: 2rem;
+    margin: 1rem;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.Card-card:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+.Card-information {
+    display: flex;
+    flex-direction: column;
+}
+
+.Card-information-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Card-information-content {
+    display: flex;
+    padding-top: 1rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Card-stat {
+    flex: 1;
+}
+
+.Card-unit {
+    font-size: 10px;
+    color: #ccc;
+}
+
+.Card-unit-header {
+    font-size: 16px;
+    flex: 1;
+}
+
+.Card-ant-name {
+    font-size: 18px;
+    min-height: 51px;
+    font-weight: 600;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Card-estimation {
+    padding-top: 1rem;
+}
+
+.Card-time-unit {
+    font-size: 10px;
+    color: #ccc;
+}
+
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
