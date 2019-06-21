@@ -1,0 +1,11 @@
+.Badge-badge {
+    background: #1372b9;
+    position: relative;
+    transform: rotate(-45deg);
+    left: -94px;
+    top: 10px;
+    padding: .05rem;
+    border: 1px solid rgba(0,0,0,0.5);
+    color: white;
+    font-weight: 600;
+}
