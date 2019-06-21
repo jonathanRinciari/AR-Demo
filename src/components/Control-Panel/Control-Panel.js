@@ -15,7 +15,7 @@ const ControlPanel = ({status, getEstimates, reset, selectedName, finishedPositi
         <Button disabled={status === 'In Progress' || status === 'Complete' || !selectedName} onClick={getEstimates} size="medium" variant="contained" color="primary">
           {selectedName ? 'Estimate' : 'Select an Ant'}
         </Button>
-        <Button onClick={reset} size="medium" variant="contained" color="secondary">
+        <Button style={{margin: '1rem 0'}} onClick={reset} size="medium" variant="contained" color="secondary">
           Reset
         </Button>
       </div>

@@ -2,7 +2,6 @@
 
 .ControlPanel-button-wrapper {
     display: flex;
-    height: 25%;
     flex-direction: column;
     justify-content: space-around;
 }

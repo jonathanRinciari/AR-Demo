@@ -30,7 +30,7 @@
 
 .App-controller {
   flex: 1 1;
-  height: 60vh;
+  height: min-content;
   margin-top: 1rem;
   background: white;
   box-shadow: 0 0 12px -10px;
