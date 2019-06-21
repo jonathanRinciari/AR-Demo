@@ -10,7 +10,7 @@ const ControlPanel = ({status, getEstimates, reset, selectedName, finishedPositi
       <span className="ControlPanel-selectedName"><b>Status:</b> {status}</span>
       <span className="ControlPanel-selectedName"><b>Selected:</b> {selectedName ? selectedName : 'Select an Ant!'}</span>
       {finishedPosition ? (<span className="ControlPanel-selectedName"><b>Finished:</b> <PositionIndicator i={finishedPosition - 1}/></span>) : null}
-      {score > 0 ? (<span className="ControlPanel-selectedName"><b>Score:</b> {score}</span>) : null}
+      {score > 0 ? (<span className="ControlPanel-selectedName"><b>Score:</b> {score} <span className="ControlPanel-score-unit">points</span></span>) : null}
       <div className="ControlPanel-button-wrapper">
         <Button disabled={status === 'In Progress' || status === 'Complete' || !selectedName} onClick={getEstimates} size="medium" variant="contained" color="primary">
           {selectedName ? 'Estimate' : 'Select an Ant'}

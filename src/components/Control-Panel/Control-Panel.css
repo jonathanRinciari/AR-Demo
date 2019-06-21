@@ -19,3 +19,8 @@ hr {
 .ControlPanel-helpText {
     font-size: 14px;
 }
+
+.ControlPanel-score-unit {
+    font-size: 10px;
+    color: #ccc;
+}
