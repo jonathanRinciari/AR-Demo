@@ -1,0 +1,22 @@
+
+
+.ControlPanel-button-wrapper {
+    display: flex;
+    height: 25%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ControlPanel-selectedName {
+    padding-top: .5rem;
+    height: 44px;
+}
+
+
+hr {
+    width: 100%;
+}
+
+.ControlPanel-helpText {
+    font-size: 14px;
+}
